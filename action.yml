@@ -1,6 +1,6 @@
 name: "My Composite Action"
 description: "A simple composite action that prints 'Hello, World!'"
-author: "Your Name"
+author: "shruthi"
 runs:
   using: "composite"
   steps:
