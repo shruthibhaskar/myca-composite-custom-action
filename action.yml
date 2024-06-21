@@ -1,0 +1,17 @@
+name: "My Composite Action"
+description: "A simple composite action that prints 'Hello, World!'"
+author: "Your Name"
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Run script
+      run: |
+        echo "hello world"
+      shell: bash
+
+branding:
+  icon: "terminal"
+  color: "blue"
